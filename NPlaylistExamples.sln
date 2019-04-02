@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NPlaylist", "nplaylist\src\NPlaylist\NPlaylist.csproj", "{AF5A00C3-7D01-4EE4-8ACE-AD2636020F26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{94283AAF-7EB8-4A77-BB97-86046BCAF9BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NPlaylist.Converter", "demo\NPlaylist.Converter\NPlaylist.Converter.csproj", "{909A7F89-0AEE-4E51-AFED-19DF7CADB6C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NPlaylist.Player", "demo\NPlaylist.Player\NPlaylist.Player.csproj", "{9C080CAC-A810-46DE-98A9-F02DB764519E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF5A00C3-7D01-4EE4-8ACE-AD2636020F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF5A00C3-7D01-4EE4-8ACE-AD2636020F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF5A00C3-7D01-4EE4-8ACE-AD2636020F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF5A00C3-7D01-4EE4-8ACE-AD2636020F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{909A7F89-0AEE-4E51-AFED-19DF7CADB6C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{909A7F89-0AEE-4E51-AFED-19DF7CADB6C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{909A7F89-0AEE-4E51-AFED-19DF7CADB6C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{909A7F89-0AEE-4E51-AFED-19DF7CADB6C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C080CAC-A810-46DE-98A9-F02DB764519E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C080CAC-A810-46DE-98A9-F02DB764519E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C080CAC-A810-46DE-98A9-F02DB764519E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C080CAC-A810-46DE-98A9-F02DB764519E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{909A7F89-0AEE-4E51-AFED-19DF7CADB6C7} = {94283AAF-7EB8-4A77-BB97-86046BCAF9BE}
+		{9C080CAC-A810-46DE-98A9-F02DB764519E} = {94283AAF-7EB8-4A77-BB97-86046BCAF9BE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B584C427-7647-4CC0-AD58-C0349331510D}
+	EndGlobalSection
+EndGlobal
