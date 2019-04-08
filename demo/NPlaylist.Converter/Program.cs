@@ -5,13 +5,13 @@ namespace NPlaylist.Converter
 {
     public class ConsoleOptions
     {
-        [Value(0, HelpText = "source file path", Required = true)]
+        [Value(0, HelpText = "Source file path.", Required = true)]
         public string SourceFile { get; set; }
 
-        [Value(1, HelpText = "source file path", Required = true)]
+        [Value(1, HelpText = "Destination file path.", Required = true)]
         public string DestinationFile { get; set; }
 
-        [Value(2, HelpText = "Output format:ASX,M3U,PLS,XSPF,WPL", Required = true)]
+        [Value(2, HelpText = "Output format: ASX, M3U, PLS, XSPF, WPL", Required = true)]
         public Format Format { get; set; }
     }
     class Program
